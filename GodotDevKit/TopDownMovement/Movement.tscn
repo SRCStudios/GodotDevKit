@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://TopDownMovement/Movement.gd" type="Script" id=1]
+
+[node name="TopDownMovement" type="Node2D"]
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+
+[node name="Movement" type="Node" parent="."]
+script = ExtResource( 1 )
