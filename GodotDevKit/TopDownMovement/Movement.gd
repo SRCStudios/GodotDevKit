@@ -6,6 +6,8 @@ extends Node
 # 			-> Apply that to the velocity
 # 			-> Move the player on the basis of the velocity
 
+
+
 onready var body = get_parent().get_node("KinematicBody2D") # THE PHYSICS BODY
 var graphics # THE PLAYER GRAPHICS
 
